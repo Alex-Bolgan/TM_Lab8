@@ -1,0 +1,585 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Dense reusable circuit-board overlay for the non-minimal console surface. -->
+    <DrawingBrush x:Key="CircuitBoardPattern"
+                  TileMode="Tile"
+                  Viewport="0,0,300,200"
+                  ViewportUnits="Absolute"
+                  Stretch="None">
+        <DrawingBrush.Drawing>
+            <GeometryDrawing>
+                <GeometryDrawing.Geometry>
+                    <GeometryGroup>
+                        <LineGeometry StartPoint="0,8"
+                                      EndPoint="22,8" />
+                        <LineGeometry StartPoint="37,25"
+                                      EndPoint="67,25" />
+                        <LineGeometry StartPoint="74,42"
+                                      EndPoint="112,42" />
+                        <LineGeometry StartPoint="111,59"
+                                      EndPoint="157,59" />
+                        <LineGeometry StartPoint="148,76"
+                                      EndPoint="202,76" />
+                        <LineGeometry StartPoint="185,93"
+                                      EndPoint="207,93" />
+                        <LineGeometry StartPoint="222,110"
+                                      EndPoint="252,110" />
+                        <LineGeometry StartPoint="9,127"
+                                      EndPoint="47,127" />
+                        <LineGeometry StartPoint="46,144"
+                                      EndPoint="92,144" />
+                        <LineGeometry StartPoint="83,161"
+                                      EndPoint="137,161" />
+                        <LineGeometry StartPoint="120,178"
+                                      EndPoint="142,178" />
+                        <LineGeometry StartPoint="157,11"
+                                      EndPoint="187,11" />
+                        <LineGeometry StartPoint="194,28"
+                                      EndPoint="232,28" />
+                        <LineGeometry StartPoint="231,45"
+                                      EndPoint="277,45" />
+                        <LineGeometry StartPoint="18,62"
+                                      EndPoint="72,62" />
+                        <LineGeometry StartPoint="55,79"
+                                      EndPoint="77,79" />
+                        <LineGeometry StartPoint="92,96"
+                                      EndPoint="122,96" />
+                        <LineGeometry StartPoint="129,113"
+                                      EndPoint="167,113" />
+                        <LineGeometry StartPoint="166,130"
+                                      EndPoint="212,130" />
+                        <LineGeometry StartPoint="203,147"
+                                      EndPoint="257,147" />
+                        <LineGeometry StartPoint="240,164"
+                                      EndPoint="262,164" />
+                        <LineGeometry StartPoint="27,181"
+                                      EndPoint="57,181" />
+                        <LineGeometry StartPoint="64,14"
+                                      EndPoint="102,14" />
+                        <LineGeometry StartPoint="101,31"
+                                      EndPoint="147,31" />
+                        <LineGeometry StartPoint="138,48"
+                                      EndPoint="192,48" />
+                        <LineGeometry StartPoint="175,65"
+                                      EndPoint="197,65" />
+                        <LineGeometry StartPoint="212,82"
+                                      EndPoint="242,82" />
+                        <LineGeometry StartPoint="249,99"
+                                      EndPoint="287,99" />
+                        <LineGeometry StartPoint="36,116"
+                                      EndPoint="82,116" />
+                        <LineGeometry StartPoint="73,133"
+                                      EndPoint="127,133" />
+                        <LineGeometry StartPoint="110,150"
+                                      EndPoint="132,150" />
+                        <LineGeometry StartPoint="147,167"
+                                      EndPoint="177,167" />
+                        <LineGeometry StartPoint="184,184"
+                                      EndPoint="222,184" />
+                        <LineGeometry StartPoint="221,17"
+                                      EndPoint="267,17" />
+                        <LineGeometry StartPoint="8,34"
+                                      EndPoint="62,34" />
+                        <LineGeometry StartPoint="45,51"
+                                      EndPoint="67,51" />
+                        <LineGeometry StartPoint="82,68"
+                                      EndPoint="112,68" />
+                        <LineGeometry StartPoint="119,85"
+                                      EndPoint="157,85" />
+                        <LineGeometry StartPoint="156,102"
+                                      EndPoint="202,102" />
+                        <LineGeometry StartPoint="193,119"
+                                      EndPoint="247,119" />
+                        <LineGeometry StartPoint="230,136"
+                                      EndPoint="252,136" />
+                        <LineGeometry StartPoint="17,153"
+                                      EndPoint="47,153" />
+                        <LineGeometry StartPoint="54,170"
+                                      EndPoint="92,170" />
+                        <LineGeometry StartPoint="91,187"
+                                      EndPoint="137,187" />
+                        <LineGeometry StartPoint="128,20"
+                                      EndPoint="182,20" />
+                        <LineGeometry StartPoint="165,37"
+                                      EndPoint="187,37" />
+                        <LineGeometry StartPoint="202,54"
+                                      EndPoint="232,54" />
+                        <LineGeometry StartPoint="239,71"
+                                      EndPoint="277,71" />
+                        <LineGeometry StartPoint="26,88"
+                                      EndPoint="72,88" />
+                        <LineGeometry StartPoint="63,105"
+                                      EndPoint="117,105" />
+                        <LineGeometry StartPoint="100,122"
+                                      EndPoint="122,122" />
+                        <LineGeometry StartPoint="137,139"
+                                      EndPoint="167,139" />
+                        <LineGeometry StartPoint="174,156"
+                                      EndPoint="212,156" />
+                        <LineGeometry StartPoint="211,173"
+                                      EndPoint="257,173" />
+                        <LineGeometry StartPoint="248,190"
+                                      EndPoint="300,190" />
+                        <LineGeometry StartPoint="35,23"
+                                      EndPoint="57,23" />
+                        <LineGeometry StartPoint="72,40"
+                                      EndPoint="102,40" />
+                        <LineGeometry StartPoint="109,57"
+                                      EndPoint="147,57" />
+                        <LineGeometry StartPoint="146,74"
+                                      EndPoint="192,74" />
+                        <LineGeometry StartPoint="183,91"
+                                      EndPoint="237,91" />
+                        <LineGeometry StartPoint="220,108"
+                                      EndPoint="242,108" />
+                        <LineGeometry StartPoint="7,125"
+                                      EndPoint="37,125" />
+                        <LineGeometry StartPoint="44,142"
+                                      EndPoint="82,142" />
+                        <LineGeometry StartPoint="81,159"
+                                      EndPoint="127,159" />
+                        <LineGeometry StartPoint="118,176"
+                                      EndPoint="172,176" />
+                        <LineGeometry StartPoint="155,9"
+                                      EndPoint="177,9" />
+                        <LineGeometry StartPoint="192,26"
+                                      EndPoint="222,26" />
+                        <LineGeometry StartPoint="229,43"
+                                      EndPoint="267,43" />
+                        <LineGeometry StartPoint="16,60"
+                                      EndPoint="62,60" />
+                        <LineGeometry StartPoint="53,77"
+                                      EndPoint="107,77" />
+                        <LineGeometry StartPoint="90,94"
+                                      EndPoint="112,94" />
+                        <LineGeometry StartPoint="127,111"
+                                      EndPoint="157,111" />
+                        <LineGeometry StartPoint="164,128"
+                                      EndPoint="202,128" />
+                        <LineGeometry StartPoint="201,145"
+                                      EndPoint="247,145" />
+                        <LineGeometry StartPoint="238,162"
+                                      EndPoint="292,162" />
+                        <LineGeometry StartPoint="25,179"
+                                      EndPoint="47,179" />
+                        <LineGeometry StartPoint="62,12"
+                                      EndPoint="92,12" />
+                        <LineGeometry StartPoint="99,29"
+                                      EndPoint="137,29" />
+                        <LineGeometry StartPoint="136,46"
+                                      EndPoint="182,46" />
+                        <LineGeometry StartPoint="173,63"
+                                      EndPoint="227,63" />
+                        <LineGeometry StartPoint="210,80"
+                                      EndPoint="232,80" />
+                        <LineGeometry StartPoint="247,97"
+                                      EndPoint="277,97" />
+                        <LineGeometry StartPoint="34,114"
+                                      EndPoint="72,114" />
+                        <LineGeometry StartPoint="71,131"
+                                      EndPoint="117,131" />
+                        <LineGeometry StartPoint="108,148"
+                                      EndPoint="162,148" />
+                        <LineGeometry StartPoint="145,165"
+                                      EndPoint="167,165" />
+                        <LineGeometry StartPoint="182,182"
+                                      EndPoint="212,182" />
+                        <LineGeometry StartPoint="219,15"
+                                      EndPoint="257,15" />
+                        <LineGeometry StartPoint="6,32"
+                                      EndPoint="52,32" />
+                        <LineGeometry StartPoint="43,49"
+                                      EndPoint="97,49" />
+                        <LineGeometry StartPoint="6,0"
+                                      EndPoint="6,18" />
+                        <LineGeometry StartPoint="35,31"
+                                      EndPoint="35,56" />
+                        <LineGeometry StartPoint="64,62"
+                                      EndPoint="64,94" />
+                        <LineGeometry StartPoint="93,93"
+                                      EndPoint="93,132" />
+                        <LineGeometry StartPoint="122,124"
+                                      EndPoint="122,170" />
+                        <LineGeometry StartPoint="151,0"
+                                      EndPoint="151,53" />
+                        <LineGeometry StartPoint="180,31"
+                                      EndPoint="180,49" />
+                        <LineGeometry StartPoint="209,62"
+                                      EndPoint="209,87" />
+                        <LineGeometry StartPoint="238,93"
+                                      EndPoint="238,125" />
+                        <LineGeometry StartPoint="267,124"
+                                      EndPoint="267,163" />
+                        <LineGeometry StartPoint="8,0"
+                                      EndPoint="8,46" />
+                        <LineGeometry StartPoint="37,31"
+                                      EndPoint="37,84" />
+                        <LineGeometry StartPoint="66,62"
+                                      EndPoint="66,80" />
+                        <LineGeometry StartPoint="95,93"
+                                      EndPoint="95,118" />
+                        <LineGeometry StartPoint="124,124"
+                                      EndPoint="124,156" />
+                        <LineGeometry StartPoint="153,0"
+                                      EndPoint="153,39" />
+                        <LineGeometry StartPoint="182,31"
+                                      EndPoint="182,77" />
+                        <LineGeometry StartPoint="211,62"
+                                      EndPoint="211,115" />
+                        <LineGeometry StartPoint="240,93"
+                                      EndPoint="240,111" />
+                        <LineGeometry StartPoint="269,124"
+                                      EndPoint="269,149" />
+                        <LineGeometry StartPoint="10,0"
+                                      EndPoint="10,32" />
+                        <LineGeometry StartPoint="39,31"
+                                      EndPoint="39,70" />
+                        <LineGeometry StartPoint="68,62"
+                                      EndPoint="68,108" />
+                        <LineGeometry StartPoint="97,93"
+                                      EndPoint="97,146" />
+                        <LineGeometry StartPoint="126,124"
+                                      EndPoint="126,142" />
+                        <LineGeometry StartPoint="155,0"
+                                      EndPoint="155,25" />
+                        <LineGeometry StartPoint="184,31"
+                                      EndPoint="184,63" />
+                        <LineGeometry StartPoint="213,62"
+                                      EndPoint="213,101" />
+                        <LineGeometry StartPoint="242,93"
+                                      EndPoint="242,139" />
+                        <LineGeometry StartPoint="271,124"
+                                      EndPoint="271,177" />
+                        <LineGeometry StartPoint="12,0"
+                                      EndPoint="12,18" />
+                        <LineGeometry StartPoint="41,31"
+                                      EndPoint="41,56" />
+                        <LineGeometry StartPoint="70,62"
+                                      EndPoint="70,94" />
+                        <LineGeometry StartPoint="99,93"
+                                      EndPoint="99,132" />
+                        <LineGeometry StartPoint="128,124"
+                                      EndPoint="128,170" />
+                        <LineGeometry StartPoint="157,0"
+                                      EndPoint="157,53" />
+                        <LineGeometry StartPoint="186,31"
+                                      EndPoint="186,49" />
+                        <LineGeometry StartPoint="215,62"
+                                      EndPoint="215,87" />
+                        <LineGeometry StartPoint="244,93"
+                                      EndPoint="244,125" />
+                        <LineGeometry StartPoint="273,124"
+                                      EndPoint="273,163" />
+                        <LineGeometry StartPoint="14,0"
+                                      EndPoint="14,46" />
+                        <LineGeometry StartPoint="43,31"
+                                      EndPoint="43,84" />
+                        <LineGeometry StartPoint="72,62"
+                                      EndPoint="72,80" />
+                        <LineGeometry StartPoint="101,93"
+                                      EndPoint="101,118" />
+                        <LineGeometry StartPoint="130,124"
+                                      EndPoint="130,156" />
+                        <LineGeometry StartPoint="159,0"
+                                      EndPoint="159,39" />
+                        <LineGeometry StartPoint="188,31"
+                                      EndPoint="188,77" />
+                        <LineGeometry StartPoint="217,62"
+                                      EndPoint="217,115" />
+                        <LineGeometry StartPoint="246,93"
+                                      EndPoint="246,111" />
+                        <LineGeometry StartPoint="275,124"
+                                      EndPoint="275,149" />
+                        <LineGeometry StartPoint="16,0"
+                                      EndPoint="16,32" />
+                        <LineGeometry StartPoint="45,31"
+                                      EndPoint="45,70" />
+                        <LineGeometry StartPoint="74,62"
+                                      EndPoint="74,108" />
+                        <LineGeometry StartPoint="103,93"
+                                      EndPoint="103,146" />
+                        <LineGeometry StartPoint="132,124"
+                                      EndPoint="132,142" />
+                        <LineGeometry StartPoint="161,0"
+                                      EndPoint="161,25" />
+                        <LineGeometry StartPoint="190,31"
+                                      EndPoint="190,63" />
+                        <LineGeometry StartPoint="219,62"
+                                      EndPoint="219,101" />
+                        <LineGeometry StartPoint="248,93"
+                                      EndPoint="248,139" />
+                        <LineGeometry StartPoint="277,124"
+                                      EndPoint="277,177" />
+                        <LineGeometry StartPoint="18,0"
+                                      EndPoint="18,18" />
+                        <LineGeometry StartPoint="47,31"
+                                      EndPoint="47,56" />
+                        <LineGeometry StartPoint="76,62"
+                                      EndPoint="76,94" />
+                        <LineGeometry StartPoint="105,93"
+                                      EndPoint="105,132" />
+                        <LineGeometry StartPoint="134,124"
+                                      EndPoint="134,170" />
+                        <LineGeometry StartPoint="163,0"
+                                      EndPoint="163,53" />
+                        <LineGeometry StartPoint="192,31"
+                                      EndPoint="192,49" />
+                        <LineGeometry StartPoint="221,62"
+                                      EndPoint="221,87" />
+                        <LineGeometry StartPoint="250,93"
+                                      EndPoint="250,125" />
+                        <LineGeometry StartPoint="279,124"
+                                      EndPoint="279,163" />
+                        <LineGeometry StartPoint="20,0"
+                                      EndPoint="20,46" />
+                        <LineGeometry StartPoint="49,31"
+                                      EndPoint="49,84" />
+                        <LineGeometry StartPoint="78,62"
+                                      EndPoint="78,80" />
+                        <LineGeometry StartPoint="107,93"
+                                      EndPoint="107,118" />
+                        <LineGeometry StartPoint="136,124"
+                                      EndPoint="136,156" />
+                        <LineGeometry StartPoint="165,0"
+                                      EndPoint="165,39" />
+                        <LineGeometry StartPoint="194,31"
+                                      EndPoint="194,77" />
+                        <LineGeometry StartPoint="223,62"
+                                      EndPoint="223,115" />
+                        <LineGeometry StartPoint="252,93"
+                                      EndPoint="252,111" />
+                        <LineGeometry StartPoint="281,124"
+                                      EndPoint="281,149" />
+                        <LineGeometry StartPoint="22,0"
+                                      EndPoint="22,32" />
+                        <LineGeometry StartPoint="51,31"
+                                      EndPoint="51,70" />
+                        <LineGeometry StartPoint="80,62"
+                                      EndPoint="80,108" />
+                        <LineGeometry StartPoint="109,93"
+                                      EndPoint="109,146" />
+                        <LineGeometry StartPoint="138,124"
+                                      EndPoint="138,142" />
+                        <LineGeometry StartPoint="167,0"
+                                      EndPoint="167,25" />
+                        <LineGeometry StartPoint="196,31"
+                                      EndPoint="196,63" />
+                        <LineGeometry StartPoint="225,62"
+                                      EndPoint="225,101" />
+                        <LineGeometry StartPoint="254,93"
+                                      EndPoint="254,139" />
+                        <LineGeometry StartPoint="283,124"
+                                      EndPoint="283,177" />
+                        <EllipseGeometry Center="8,8"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="51,31"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="94,54"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="137,77"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="180,100"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="223,123"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="266,146"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="25,169"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="68,8"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="111,31"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="154,54"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="197,77"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="240,100"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="283,123"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="42,146"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="85,169"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="128,8"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="171,31"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="214,54"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="257,77"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="16,100"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="59,123"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="102,146"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="145,169"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="188,8"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="231,31"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="274,54"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="33,77"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="76,100"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="119,123"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="162,146"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="205,169"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="248,8"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="291,31"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="50,54"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="93,77"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="136,100"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="179,123"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="222,146"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="265,169"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="24,8"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="67,31"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="110,54"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="153,77"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="196,100"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="239,123"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="282,146"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="41,169"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="84,8"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="127,31"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="170,54"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="213,77"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="256,100"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="15,123"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="58,146"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="101,169"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="144,8"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="187,31"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="230,54"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="273,77"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="32,100"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="75,123"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="118,146"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="161,169"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="204,8"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="247,31"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="290,54"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="49,77"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="92,100"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="135,123"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="178,146"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="221,169"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="264,8"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="23,31"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="66,54"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="109,77"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="152,100"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="195,123"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="238,146"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="281,169"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="40,8"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="83,31"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="126,54"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="169,77"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="212,100"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="255,123"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="14,146"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="57,169"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="100,8"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="143,31"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="186,54"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="229,77"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="272,100"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="31,123"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="74,146"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="117,169"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="160,8"
+                                         RadiusX="1" RadiusY="1" />
+                        <EllipseGeometry Center="203,31"
+                                         RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="246,54"
+                                         RadiusX="3" RadiusY="3" />
+                        <EllipseGeometry Center="289,77"
+                                         RadiusX="1" RadiusY="1" />
+                    </GeometryGroup>
+                </GeometryDrawing.Geometry>
+                <GeometryDrawing.Pen>
+                    <Pen Brush="{DynamicResource NeonPrimary}"
+                         Thickness="0.6"
+                         DashCap="Round"
+                         StartLineCap="Round"
+                         EndLineCap="Round" />
+                </GeometryDrawing.Pen>
+            </GeometryDrawing>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+</ResourceDictionary>
